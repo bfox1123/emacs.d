@@ -148,6 +148,13 @@
   (setq-default uptimes-keep-count 200)
   (add-hook 'after-init-hook (lambda () (require 'uptimes))))
 
+;;----------------------------------------------------------------------------
+;; Brett added
+;;----------------------------------------------------------------------------
+
+(when *is-a-mac*
+  (setq mac-command-modifier 'control)
+  (setq mac-option-modifier 'meta))
 
 ;;----------------------------------------------------------------------------
 ;; Allow access from emacsclient
@@ -185,3 +192,4 @@
 ;; no-byte-compile: t
 ;; End:
 ;;; init.el ends here
+(put 'dired-find-alternate-file 'disabled nil)
