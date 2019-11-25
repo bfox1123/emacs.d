@@ -2,4 +2,9 @@
   (setq mac-command-modifier 'control)
   (setq mac-option-modifier 'meta))
 
+;; https://cli.emberjs.com/release/appendix/dev-tools/
+(setq backup-directory-alist `((".*" . ,temporary-file-directory)))
+(setq auto-save-file-name-transforms `((".*" ,temporary-file-directory t)))
+(setq create-lockfiles nil)
+
 (provide 'init-local)
