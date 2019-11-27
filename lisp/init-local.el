@@ -7,4 +7,6 @@
 (setq auto-save-file-name-transforms `((".*" ,temporary-file-directory t)))
 (setq create-lockfiles nil)
 
+(desktop-save-mode 1)
+
 (provide 'init-local)
