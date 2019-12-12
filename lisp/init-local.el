@@ -7,7 +7,6 @@
 (setq auto-save-file-name-transforms `((".*" ,temporary-file-directory t)))
 (setq create-lockfiles nil)
 
-(desktop-save-mode 1)
 (put 'dired-find-alternate-file 'disabled nil)
 
 (provide 'init-local)
