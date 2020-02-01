@@ -9,6 +9,8 @@
 
 ;;https://stackoverflow.com/questions/2062492/save-and-compile-automatically
 (setq compilation-ask-about-save nil)
+;; https://docs.cider.mx/cider/config/basic_config.html
+(setq cider-save-file-on-load t)
 
 (put 'dired-find-alternate-file 'disabled nil)
 
