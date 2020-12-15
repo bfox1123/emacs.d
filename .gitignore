@@ -51,4 +51,6 @@ site-lisp/package/
 .cache/
 /forge-database.sqlite
 /transient
-projectile.cache
+/.lsp-session-v1
+/smex-items
+/eln-cache/
