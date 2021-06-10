@@ -13,5 +13,6 @@
 (setq cider-save-file-on-load t)
 
 (put 'dired-find-alternate-file 'disabled nil)
+(global-set-key "\C-x\ \C-r" 'recentf-open-files)
 
 (provide 'init-local)
